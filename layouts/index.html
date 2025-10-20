@@ -1,3 +1,9 @@
 {{ define "main" }}
 <article>{{ .Content }}</article>
-{{ end }}
+
+<h2>Blog</h2>
+{{ range .Site.RegularPages }}
+<div class="article-list-item">
+    <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+</div>
+{{ end }} {{ end }}

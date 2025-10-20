@@ -1,0 +1,14 @@
+baseURL = 'https://monolith-project.org'
+languageCode = 'en-us'
+title = 'MONOLITH Project'
+
+[menu]
+
+[[menu.main]]
+    name = 'Blog'
+    url = '/blog/'
+    pre = 'pen-tool'
+
+[markup]
+  [markup.highlight]
+    style = 'github-dark'

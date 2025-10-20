@@ -1,5 +1,5 @@
 # MONOLITH Project
 
-A Non-Unix operating system designed for simplicity, experimentation and education.
+A project that aims to create an open source operating system designed for simplicity, for the sake of fun and experimentation.
 
-_This website is still under construction, feel free to [contribute!](https://github.com/MONOLITH-Project/monolith-project.github.io)_
+Feel free to [contribute on GitHub](https://github.com/MONOLITH-Project) and join our community on [Discord](https://discord.gg/wjma2CfT)!
