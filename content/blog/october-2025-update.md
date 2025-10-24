@@ -10,7 +10,7 @@ This is my first blog post documenting the development of the **MONOLITH project
 
 But I'm coming back with new ideas and plans for the project!
 
-![Brutal Screenshot](the-monolith.png)
+![Brutal Screenshot](the-monolith.webp)
 
 ## The current state of the project
 
@@ -36,7 +36,7 @@ My biggest plan for the operating system that I have been working on is to aband
 
 **Brutal** is a microkernel, capability based and Unix-like operating system made by [Clem](https://smnx.sh/) and [Cyp](https://cyp.sh/), and it's one of many projects that inspired me to get into the hobby osdev field, but this project has been abandoned in a very incomplete state for over 2 years, since its developers have gotten busy working on other projects like [SkiftOS](https://skiftos.org/) and [WingOS](https://github.com/supercip971/wingos).
 
-![Brutal Screenshot](brutal.png)
+![Brutal Screenshot](brutal.webp)
 
 **Brutal** in its current state has most the basic foundation for a functioning microkernel which includes the IPC, syscalls, scheduling and SMP, in addition to some UI and graphics support. but it still lacks a filesystem (or even a VFS), terminal support, and the UI is barely functional at all.
 
@@ -60,7 +60,7 @@ For now I'm working on writing a draft for the specification of the language bef
 
 ### The virtual machine
 
-![HAL 9000](hal9000.png)
+![HAL 9000](hal9000.webp)
 
 I'm considering implementing **Dash** as a managed language targeting my own virtual machine, I have prototyped before a virtual machine called [HAL64](https://github.com/mrunix00/HAL64), this virtual machine is a stack based machine with support for register based instructions, and in my testing it was able to achieve very good performance for a non-JIT virtual machine.
 
